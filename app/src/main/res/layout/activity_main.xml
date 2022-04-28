@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/diceNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/zero"
+        android:layout_gravity="center_horizontal"
+        android:textSize="54dp"
+        />
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnRoll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Roll Dice!"
+        android:textSize="29dp"
+        android:textAllCaps="false"
+        app:cornerRadius="57dp"
+        android:layout_gravity="center_horizontal"
+
+        android:backgroundTint="@color/black"
+        />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/countUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cornerRadius="32dp"
+        android:textSize="34dp"
+        android:text="Count Up"
+        android:shadowDx="0.1"
+        android:shadowDy="0.5"
+        android:shadowColor="@color/black"
+        android:textAllCaps="false"
+        android:layout_marginTop="15dp"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"
+        android:layout_gravity="center_horizontal"/>
+
+</LinearLayout>
